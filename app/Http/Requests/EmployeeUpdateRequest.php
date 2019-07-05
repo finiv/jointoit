@@ -26,7 +26,7 @@ class EmployeeUpdateRequest extends FormRequest
         return [
             'first_name' => 'required',
             'last_name'  => 'required',
-            'email'      => 'required',
+            'email'      => 'required|email',
         ];
     }
 }

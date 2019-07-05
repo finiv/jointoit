@@ -26,7 +26,6 @@ class CompanyUpdateRequest extends FormRequest
         return [
                 'name' => 'required',
                 'email' => 'required|email',
-//                 'logo'  => 'required',
         ];
     }
 }

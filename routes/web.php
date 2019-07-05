@@ -35,6 +35,5 @@ Route::get('email-test', function(){
 
     dispatch(new App\Jobs\SendEmailJob($details));
 
-//    dd('done');
 });
 Route::post('/companylist', 'Admin\DashboardController@getListOfCompanies')->name('getCompanyList');
